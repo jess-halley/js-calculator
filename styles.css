@@ -1,0 +1,30 @@
+#display{
+  background: linear-gradient(rgb(118, 141, 135) 5%, rgb(108, 124, 124) 100%) rgb(118, 141, 135);
+  border-radius: 5px;
+  width: 205px;
+  border: 1px solid rgb(86, 105, 99);
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  text-shadow: rgb(43, 102, 94) 0px -1px 0px;
+}
+
+.button{
+  box-shadow: rgb(41, 187, 255) 0px -3px 7px 0px inset;       background: linear-gradient(rgb(45, 171, 249) 5%, rgb(6, 136, 250) 100%) rgb(45, 171, 249);
+  border-radius: 3px;
+  width: 60px;
+  border: 1px solid rgb(11, 14, 7);
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: rgb(38, 54, 102) 0px 1px 8px;
+}

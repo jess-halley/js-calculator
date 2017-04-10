@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>My Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="display">
+   0
+ </div>
+ <!--Numbers-->
+ <div>
+
+  <table>
+    <tr>
+      <td><button class="button" onclick="concatenateDigits(7)">7</button></td>
+      <td><button class="button" onclick="concatenateDigits(8)">8</button></td>
+      <td><button class="button" onclick="concatenateDigits(9)">9</button></td>
+      <td><button class="button" onclick="calculate('+')">+</button></td>
+    </tr>
+
+
+    <tr>
+      <td><button class="button" onclick="concatenateDigits(4)">4</button></td>
+      <td><button class="button" onclick="concatenateDigits(5)">5</button></td>
+      <td><button class="button" onclick="concatenateDigits(6)">6</button></td>
+      <td><button class="button" onclick="calculate('-')">-</button></td>
+    </tr>
+
+
+    <tr>
+      <td><button class="button" onclick="concatenateDigits(1)">1</button></td>
+      <td><button class="button" onclick="concatenateDigits(2)">2</button></td>
+      <td><button class="button" onclick="concatenateDigits(3)">3</button></td>
+      <td><button class="button" onclick="calculate('*')">*</button></td>
+    </tr>
+
+    <tr>
+      <td><button class="button" onclick="clearCalculator()">C</button></td>
+      <td><button class="button" onclick="concatenateDigits(0)">0</button></td>
+      <td><button class="button" onclick="calculate('=')">=</button></td>
+      <td><button class="button" onclick="calculate('/')">/</button></td>
+    </tr>
+
+  </table>
+
+ </div>
+<script src="calculator.js"></script>
+</body>
